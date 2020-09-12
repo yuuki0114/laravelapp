@@ -9,8 +9,8 @@ class HelloController extends Controller
 {
     public function index()
     {
-        $date = ['one', 'two', 'three', 'four', 'five'];
-        return view('hello.index', ['date' => $date]);
+        $data = ['one', 'two', 'three', 'four', 'five'];
+        return view('hello.index', ['data' => $data]);
     }
     public function post(Request $request)
     {
